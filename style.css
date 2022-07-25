@@ -1,0 +1,47 @@
+.container{
+	background-color: hsl(0, 0%, 75%, 0.3);
+	padding:100px 30px 15px 15px;
+}
+
+.benefits{
+	font-size:24px;
+	font-weight: bold;
+	text-align:center;
+}
+
+.subtitle{
+	font-size:15px;
+	margin-top:15px;
+	color: hsl(257, 7%, 63%);
+	text-align:center;
+}
+
+.flex-container{
+	display: flex;
+	justify-content:space-between;	
+}
+
+.card{
+	margin: 75px 25px 25px 25px;
+	border-radius: 10px;
+	padding:70px 30px 30px 30px;
+	background-color:white;
+	max-width: 50ch;
+	position:relative;
+}
+
+.cerc{
+	background-color: hsl(257, 27%, 26%);
+	border-radius:50%;
+	width: 80px;
+    height: 80px;
+	position:absolute;
+	left:50%;
+	top:0px;
+	transform: translate(-50%, -50%)
+}
+.title-card{
+	font-size:20px;
+	font-weight: bold;
+	text-align:center;
+}
